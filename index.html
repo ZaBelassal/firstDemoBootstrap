@@ -9,33 +9,31 @@
           crossorigin="anonymous">
           <script src="https://kit.fontawesome.com/ad2058990d.js" crossorigin="anonymous"></script>
 
-        <style>
-            *{
-                box-sizing:border-box;
-                margin:0;
-                padding:0;
-            }
-        </style>
+        <link rel=""
     <title>Document</title>
 </head>
 <body>
-    <nav class="container-fluid bg-dark">
+    <nav class="container-fluid bg-dark" id="yassine">
         
         
         <div class="navbar navbar-expand-lg ms-5">
             <div class="fs-3 text-white navbar-brand">Frontend Bootcamp</div>
-        
-            <ul class="nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white opacity-50" href="#">What you wil lear</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white opacity-50" href="#">Questions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white opacity-50" href="#">Instructions</a>
-            </li>
-            </ul>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav ms-auto">
+                <li class="nav-item">
+                <a href="#" class="nav-link text-light">What you wil lear</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link text-light">Questions</a>
+                </li>
+                <li class="nav-item">
+                <a href="#" class="nav-link text-light">Instructions</a>
+                </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <main>
@@ -204,8 +202,10 @@
             <div class="container">
                 <div class="row gx-2">
                     <div class="col">
-                        <div class="card text-center" style="height: 100%;">
-                            <img src="images/person1.jpg" class="card-img xs rounded-circle" alt="person1">
+                        <div class="card text-center">
+                            <div class="text-center">
+                            <img src="images/person1.jpg" class="card-img w-50 rounded-circle" alt="person1">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">John Doe</h5>
                                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum voluptate laborum quo assumenda et optio incidunt ad doloribus at consequatur est, maiores a voluptates sit asperiores. Modi, voluptatibus explicabo.</p>
@@ -217,8 +217,10 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card text-center" style="height: 100%; box-sizing: border-box;">
-                            <img src="images/person2.jpg" class="card-img rounded-circle xs" alt="person2">
+                        <div class="card text-center">
+                            <div class="text-center">
+                            <img src="images/person2.jpg" class="card-img rounded-circle w-50" alt="person2">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">John Doe</h5>
                                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum voluptate laborum quo assumenda et optio incidunt ad doloribus at consequatur est, maiores a voluptates sit asperiores. Modi, voluptatibus explicabo.</p>
@@ -230,11 +232,13 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card text-center" style="height: 100%;">
-                            <img src="images/person3.jpg" class="card-img rounded-circle xs" alt="person3">
+                        <div class="card text-center">
+                            <div class="text-center">
+                            <img src="images/person3.jpg" class="card-img rounded-circle w-50 h-50" alt="person3">
+                            </div>
                             <div class="card-body ">
                                 <h5 class="card-title">John Doe</h5>
-                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus earum voluptate laborum quo assumenda et optio incidunt ad doloribus at consequatur est, maiores a voluptates sit asperiores. Modi, voluptatibus explicabo.</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, animi quisquam sint placeat quibusdam consequatur, quasi id saepe nulla at repudiandae recusandae laborum praesentium! Sunt.</p>
                                 <i class="fa-brands fa-instagram"></i>
                                 <i class="fa-brands fa-twitter"></i>
                                 <i class="fa-brands fa-linkedin"></i>
@@ -243,8 +247,10 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card text-center" style="height: 100%;"> 
-                            <img src="images/person4.jpg" class="card-img rounded-circle xs" alt="person4">
+                        <div class="card text-center"> 
+                            <div class="text-center">
+                            <img src="images/person4.jpg" class="card-img rounded-circle w-50" alt="person4">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">John Doe</h5>
                                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In sapiente porro sequi optio! Natus explicabo recusandae quod maiores ipsa voluptatum a ipsam accusantium, enim, molestias corrupti nisi debitis dignissimos dolorem?</p>
@@ -260,8 +266,37 @@
 
         </section>
 
-    </main>
+        <section class="map d-flex justify-content-around align-items-center mb-5">
+            <div>
+                <h2>Contact Info</h2>
+                <h4 class="d-inline">Main Location:</h4> <span class="fw-1">50 Main at Boston MA</span>
+                <hr/>
+                <h4 class="d-inline">Main Location:</h4> <span class="fw-1">50 Main at Boston MA</span>
+                <hr/>
+                <h4 class="d-inline">Student Phone:</h4> <span class="fw-1">444</span>
+                <hr/>
+                <h4 class="d-inline">Student Phone:</h4> <span class="fw-1">bootcamp@div.io</span>
+                <hr/>
+                <h4 class="d-inline">Student Phone:</h4> <span class="fw-1">333</span>
+                <hr/>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d106347.02873192616!2d-7.682717614919971!3d33.59636106090812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sma!4v1651026828854!5m2!1sfr!2sma" 
+                        width="600" height="450" style="border:0;" allowfullscreen="" 
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
 
+
+    </main>
+    <footer class="bg-dark text-center pt-5" style="height:200px">
+        <div class="hstack gap-2">
+           <span class="ms-auto text-white">Copyright 2022 &copy; frontend Bootcamp</span>
+           <div class="ms-auto">
+            <a href="#yassine"><i class="fa-solid fa-circle-arrow-up bg-secondary fs-1"></i></a>
+           </div>
+        </div>
+    </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
